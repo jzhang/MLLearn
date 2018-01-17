@@ -3,15 +3,13 @@
 """Console script for MLlearn."""
 
 import click
-
+import MLlearn
 
 @click.command()
 def main(args=None):
     """Console script for MLlearn."""
-    click.echo("Replace this message by putting your code into "
-               "MLlearn.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
-
+    click.echo("#1 try scilearn LDA model")
+    MLlearn.tryLDA()
 
 if __name__ == "__main__":
     main()
